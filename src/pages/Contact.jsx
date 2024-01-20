@@ -1,5 +1,6 @@
 import { Suspense, useRef, useState } from "react";
 
+import Alert from "../components/Alert";
 import { Canvas } from "@react-three/fiber";
 import Fox from "../models/Fox";
 import Loader from "../components/Loader";
