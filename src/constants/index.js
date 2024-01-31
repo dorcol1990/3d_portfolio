@@ -1,3 +1,4 @@
+import { ace, back, freelancer } from "../assets/images";
 import {
     car,
     contact,
@@ -21,7 +22,6 @@ import {
     threads,
     typescript
 } from "../assets/icons";
-import { meta, shopify, starbucks, tesla } from "../assets/images";
 
 export const skills = [
     {
@@ -94,10 +94,10 @@ export const skills = [
 export const experiences = [
     {
         title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        company_name: "Ace Digital Studio",
+        icon: ace,
+        iconBg: "#FF8500",
+        date: "Jul 2023 - September 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -106,42 +106,29 @@ export const experiences = [
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        title: "Teacher Assistant",
+        company_name: "danilovesovic.com",
+        icon: back,
+        iconBg: "#E12558",
+        date: "September 2023 - December 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Guided students in web development, ensuring understanding of key concepts through engaging lectures and practical exercises.",
+            "Taught HTML, CSS, and Tailwind CSS, aligning coursework with industry standards to develop versatile skills in students.",
+            "Created challenging tasks to reinforce theoretical knowledge, promoting practical application in web development.",
+            "Monitored student performance, provided feedback, and offered support to enhance the learning experience in web development.",
         ],
     },
     {
         title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        company_name: "Freelancer",
+        icon: freelancer,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "Jan 2024 - present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Successfully delivered multiple websites using Next.js and React, emphasizing seamless user experiences and modern design.",
+            "Crafted tailored solutions, prioritizing client needs, and implementing scalable and responsive web applications.",
+            "Implemented efficient code practices in Next.js, ensuring optimal website performance and loading speeds.",
+            "Demonstrated adaptability by staying current with industry trends, fostering innovation in web development projects.",
         ],
     },
 ];
@@ -168,43 +155,36 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Advertisement Placement Application',
+        description: "I have worked on the development of an application that enables users to post advertisements for renting various items.",
+        link: 'https://e-rent.rs/',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: "Programming School Website",
+        description: "Programming School Website: Guiding Beginners into the World of Coding",
+        link: 'https://www.hellohood.rs/',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
         name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        description: 'Designed and built app for finding and comparing cars on the market, streamlining the car-rent process.',
+        link: 'https://github.com/dorcol1990/cars_showcase',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'E-Shop',
+        description: 'Effortless Shopping: An E-Shop Streamlining Online Discovery for Customers',
+        link: 'https://github.com/dorcol1990/e-commerce-client',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Drum Kit',
+        description: "Drums, hands down my favorite thing. Feel free to check it out on my GitHub and have some fun!",
+        link: 'https://github.com/dorcol1990/javascript-drum-kit',
     }
 ];
