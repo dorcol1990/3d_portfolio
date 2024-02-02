@@ -4,7 +4,7 @@ import { soundoff, soundon } from "../assets/icons";
 import Bird from "../models/Bird";
 import { Canvas } from "@react-three/fiber";
 import HomeInfo from "../components/HomeInfo";
-import  {Island}  from "../models/island";
+import  {Island}  from "../models/Island";
 import Loader from "../components/Loader";
 import Plane from "../models/Plane";
 import Sky from "../models/Sky";
